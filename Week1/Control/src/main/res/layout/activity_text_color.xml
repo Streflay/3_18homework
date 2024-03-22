@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_code_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置系统自带的颜色"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/tv_code_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码设置八位文字颜色"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_code_background"
+        android:layout_width="265dp"
+        android:layout_height="283dp"
+        android:text="背景设置为绿色"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
